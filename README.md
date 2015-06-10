@@ -6,7 +6,8 @@ Prerequsites
 
 jq, e.g:
 
-    brew install jq
+    brew install jq #On OSX
+    apt-get install jq #On debian/ubuntu
 
 Install
 -------
