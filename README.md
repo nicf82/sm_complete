@@ -11,7 +11,9 @@ jq, e.g:
 Install
 -------
 
-Execute sm_complete.sh in your ~/.bash_profile e.g:
+Download the script to your home directory (for example). Execute sm_complete.sh in your ~/.bash_profile
 
-    . ~/sm_complete.sh
-
+    cd ~
+    wget https://raw.githubusercontent.com/nicf82/sm_complete/master/sm_complete.sh
+    echo ". ~/sm_complete.sh" >> .bash_profile
+    . .bash_profile
